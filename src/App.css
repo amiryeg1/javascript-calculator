@@ -2,10 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.IO {
+  margin: auto;
+  background-color:#da7212;
+  width: 250px;
+  height: 75px;
+  font-size: larger;
+  font-family: digital-clock-font;
 }
+
+.output {
+  margin-right: 200px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +45,7 @@
     transform: rotate(360deg);
   }
 }
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('/src/digital-7.regular.ttf');
+ }

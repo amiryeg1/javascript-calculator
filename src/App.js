@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ButtonsContainer from "./components/Buttons_container"
+import {useSelector} from "react-redux"
 function App() {
+  const inputValue = useSelector((state) => state.cal.input)
+  const outputValue = useSelector((state) => state.cal.output)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>javascript calculator</h1>
+    
+     <ButtonsContainer/> <br/>
+     <div className="IO">
+     <span className="output">{outputValue}</span> <br/><br/>
+     <span id="display">{inputValue}</span>
+     </div>
+     
     </div>
   );
 }
