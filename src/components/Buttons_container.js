@@ -25,7 +25,6 @@ const ButtonsContainer = () => {
       <NumbersButton id="zero" value="0" className="zero" />
       <NumbersButton id="decimal" value="." />
       <OperatorsButton id="divide" value="/" />
-      
       <EqualButton id="equals" value="=" />
     </div>
   );

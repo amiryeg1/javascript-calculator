@@ -1,54 +1,61 @@
 .buttons {
-    font: inherit;
-    border: 1px solid #9c919e;
-    background: #2e2d2e;
-    color: white;
-    padding: 0.25rem 1rem;
-    cursor: pointer;
-    width: 25%;
-    height:65px;
-    flex: 1 0 21%;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px; 
-    font-family:'digital-clock-font';
-    font-size:x-large;
-  }
-  .buttons:hover {
-    background: #741188;
-    border-color: #000;
-  }
-
-  .operands {
-    background: #525152;
-  }
-  .operands:hover {
-    background: #082c18;
-  }
-  
-  .clear {
-    background: #a0280a;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .clear:hover {
-    background: #f83302
-  }
-
-  .equal {
-    background: #044750
-  }
-  .equal:hover {
-    background: #0b8b9c
-  }
-
-  .zero {
-    width:95px
-  }
+  border-radius: 10px;
+  font: inherit;
+  border: 1px solid #9c919e;
+  background: #2e2d2e;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  width: 25%;
+  height: 65px;
+  flex: 1 0 21%;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: "digital-clock-font";
+  font-size: 25px;
+}
+.buttons:hover {
+  background: #741188;
+  border-color: #000;
+}
+.buttons:active {
+ background: #26082c;
+}
 
 
-  @font-face{
-    font-family:'digital-clock-font';
-    src: url('/src/digital-7.regular.ttf');
-   }
- 
+
+.operands {
+  background: #525152;
+  font-size: 40px;
+}
+.operands:hover {
+  background: #082c18;
+}
+
+.clear {
+  font-size: 16px;
+  background: #a0280a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.clear:hover {
+  background: #f83302;
+}
+
+.equal {
+  font-size: 40px;
+  background: #044750;
+}
+.equal:hover {
+  background: #0b8b9c;
+}
+
+.zero {
+  width: 95px;
+}
+
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("/src/digital-7.regular.ttf");
+}
