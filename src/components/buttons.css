@@ -14,6 +14,7 @@
   margin-left: 5px;
   margin-bottom: 5px;
   font-family: "digital-clock-font";
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   font-size: 25px;
 }
 .buttons:hover {
@@ -22,6 +23,7 @@
 }
 .buttons:active {
  background: #26082c;
+ outline-color: #f83302;
 }
 
 
