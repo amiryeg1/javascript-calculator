@@ -8,7 +8,7 @@ function App() {
     if (navigator.share) {
       navigator
         .share({
-          title: "js calculator",
+          title: window.title,
           text: "sample js calculator",
           url: window.location.href,
         })
