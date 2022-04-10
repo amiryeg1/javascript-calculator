@@ -6,7 +6,7 @@
   border-radius: 10px;
   margin: auto;
   padding-top: 15px;
-  background-color:#da7212;
+  background-color: #da7212;
   width: 250px;
   height: 75px;
   font-size: larger;
@@ -17,15 +17,27 @@
   margin-right: 200px;
 }
 
-
+.share {
+  width: 95px;
+  height: 50px;
+  border-radius: 12px;
+  background: #61dafb;
+  color: #282c34;
+  border-color: darkcyan;
+  margin-top: 10px;
+  cursor: pointer;
+}
 @media only screen and (max-width: 500px) {
   .App {
     padding-top: 40px;
-      width: 100%;
-      height: 100%
-      
+    width: 100%;
+    height: 100%;
   }
-  
+}
+@media screen and (min-width: 500px) {
+  .share {
+    display: none;
+  }
 }
 
 .App-header {
@@ -51,7 +63,7 @@
     transform: rotate(360deg);
   }
 }
-@font-face{
-  font-family:'digital-clock-font';
-  src: url('/src/digital-7.regular.ttf');
- }
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("/src/digital-7.regular.ttf");
+}
